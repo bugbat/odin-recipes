@@ -15,17 +15,47 @@ li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-table, td, tr, th {
-    background-color:rgb(210, 224, 255);
-    vertical-align: top;
-    padding: 10px;
-    text-align: left;
+
+/* divs */
+
+html {
+    box-sizing: border-box;
+    background-color: rgb(238, 238, 238);
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
 }
 
-td {
+.container {
+    margin: 0px 100px;
+    height: auto;
+}
+
+.title {
+    background-color: rgb(210, 224, 255);
+    padding: 25px;
+    height: auto;
+}
+
+.content {
+    background-color: white;
+    padding: 25px;
+    height: auto;
+}
+
+.recipecolumn {
     border-left: solid 5px rgb(92, 87, 131);
+    display: inline;
+    float: left;
+    width: 33%;
+    padding-left: 10px;
+    height: auto;
+    overflow: hidden;
 }
 
-table {
-    width: 100%;
+/* Clear floats after the columns */
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
 }
