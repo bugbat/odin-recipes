@@ -1,0 +1,31 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table, td, tr, th {
+    background-color:rgb(210, 224, 255);
+    vertical-align: top;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border-left: solid 5px rgb(92, 87, 131);
+}
+
+table {
+    width: 100%;
+}
